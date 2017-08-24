@@ -216,7 +216,7 @@ a.pure-button-primary {
 .content-head {
 	font-weight: 400;
 	text-transform: uppercase;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
 	margin: 2em 0 1em;
 }
 
@@ -311,7 +311,7 @@ a.pure-button-primary {
 
 h2,
 h3 {
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	font-weight: 600;
 }
@@ -545,4 +545,8 @@ p {
 	.banner-head {
 		font-size: 3em;
 	}
+}
+
+.pure-menu-horizontal {
+	white-space: inherit;
 }
