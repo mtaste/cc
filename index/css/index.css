@@ -528,7 +528,7 @@ p {
 		font-size: 4em;
 	}
 	.pricing-table {
-		margin-bottom: 0;
+		margin-bottom: 1em;
 	}
 }
 
@@ -549,4 +549,31 @@ p {
 
 .pure-menu-horizontal {
 	white-space: inherit;
+}
+
+
+/*分页*/
+
+.pure-paginator {
+	letter-spacing: -0.31em;
+	/* Webkit: collapse white-space between units; */
+	text-rendering: optimizespeed;
+	/* Webkit: fixes text-rendering: optimizeLegibility; */
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pure-paginator li {
+	display: inline-block;
+	zoom: 1;
+	letter-spacing: normal;
+	word-spacing: normal;
+	vertical-align: top;
+	text-rendering: auto;
+}
+
+.pure-button-primary.pure-button-active {
+	background-color: #E6E6E6;
+	color: #666666;
 }
